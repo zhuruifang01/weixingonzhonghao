@@ -1,0 +1,84 @@
+.header1{
+    width:95%;
+    margin:0 auto;
+}
+.header1 div{
+    float:left;
+}
+.date-list{
+    display:none;
+    position:absolute;
+    left:0;right:0;margin:auto;
+    top:2.1rem;
+    padding-top:0.3rem;
+    padding-bottom:0.3rem;
+    background: #FED;
+    border-radius:0.2rem;
+    -webkit-border-radius:5px;
+    overflow:hidden;
+    border:1px solid;
+    border-color:#ccc  #ccc transparent  #ccc;
+    z-index: 999;
+}
+.header1 .fl,.header1 .fr{
+    cursor:pointer;
+}
+.header1 select{
+    padding: 2px 0;
+    vertical-align:top;
+    border:1px solid #ccc;
+    text-align:center;
+}
+
+.header-right{
+    margin-right:8px;
+}
+.header-left,.header-right{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #ccc;
+    line-height: 20px;
+}
+.today{
+    padding:2px 5px;
+    border:1px solid #ccc;
+    border-radius:5px;
+    background:#ccc;
+    color:#fff;
+    font-size:12px;
+    width:24px;
+    height:16px;
+    line-height:16px;
+}
+.date-list,.date-list table{
+    width:95%;
+    margin:0 auto;
+}
+
+.date-list thead{
+    background:#00cdec;
+}
+.date-list th{
+    padding:2px;
+    color:#fff;
+    border:1px solid #ccc;
+    font-size: 14px;
+    font-weight: normal;
+}
+.date-list td{
+    border:1px solid #ccc;
+    padding:2px 0;
+    text-align:center;
+    font-size: 12px;
+}
+.date-list td:hover{
+    background:#ccc;
+    color:#fff;
+}
+.date-list td.current{
+    background:#00cdec;
+    color:#fff;
+}

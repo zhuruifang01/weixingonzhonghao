@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="js/jquery-3.1.0.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/date.js"></script>
+    <link rel="stylesheet" href="css/date1.css">
+    <title>换班</title>
+    <style>
+        html,body,ul,li{
+            padding:0;
+            margin:0;
+            list-style:none;
+        }
+        html,body{
+            background:#e7f0ed;
+        }
+        .contain{
+            width:90%;
+            height:auto;
+            margin:0 auto;
+            margin-top:1rem;
+        }
+        .contain form ul{
+            width:100%;
+            height:auto;
+        }
+        .contain form ul li{
+            width:100%;
+            height:0.8rem;
+            line-height:0.8rem;
+            font-size:0.4rem;
+            margin:0 auto;
+            margin-bottom:0.2rem;
+            padding-left:0.2rem;
+            box-sizing:border-box;
+            border-left:0.06rem solid cornflowerblue;
+            background:#fff;
+            overflow:hidden;
+        }
+        .contain form ul li .date input{
+            width:5.5rem;
+            height:0.8rem;
+            line-height:0.8rem;
+            border:0;margin:0;
+            padding:0;
+            font-size:0.4rem;
+        }
+        .contain form ul li span{
+            float:left;
+        }
+        .contain form ul li span .styled-select select{
+            width:5.5rem;
+            height:0.8rem;
+            line-height:0.8rem;
+            border:0;margin:0;
+            padding:0;
+            font-size:0.4rem;
+            float:left;
+            background:none;
+        }
+
+        .contain form ul .button{
+            border:0;
+            padding:0;
+            margin-top:0.5rem;
+            background:none;
+        }
+        .contain form ul .button button{
+            background:cornflowerblue;
+            border:0;
+            width:3.5rem;
+            height:0.7rem;
+            line-height:0.6rem;
+            font-size:0.4rem;
+            color:#fff;
+            border-radius:0.1rem;
+            text-align:center;
+        }
+    </style>
+</head>
+<body>
+      <div class="contain">
+          <form action="">
+               <ul>
+                      <li>
+                          <div class="date date1 fl">
+                              日期：&nbsp;<input type="text" class="date-check" placeholder="请选择"/>
+                          </div>
+                      </li>
+                      <li>
+                          <span>时间：&nbsp;</span>
+                          <span>
+                              <div class="styled-select">
+                                  <select>
+                                          <option>晚上</option>
+                                          <option>上午</option>
+                                          <option>下午</option>
+                                  </select>
+                              </div>
+                          </span>
+                      </li>
+                   <li>
+                       <span>人员：&nbsp;</span>
+                       <span>
+                              <div class="styled-select">
+                                  <select>
+                                          <option>张三</option>
+                                          <option>李四</option>
+                                          <option>王五</option>
+                                  </select>
+                              </div>
+                       </span>
+                   </li>
+                   <li class="button">
+                       <span style="float:left;"><button>确定</button></span>
+                       <span style="float:right"><button style="background:#ccc;">取消</button></span>
+                   </li>
+
+               </ul>
+          </form>
+      </div>
+</body>
+</html>
+

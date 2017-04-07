@@ -1,0 +1,125 @@
+html,body{
+    width:100%;height:100%;
+    padding:0;margin:0;
+    background:#e7f0ed;
+    color:#787878;
+    font-size:0.3rem;
+}
+ul,li,a{
+    padding:0;margin:0;
+    list-style:none;
+    text-decoration:none;
+}
+/*头部*/
+.header{
+    width:95%;
+    height:0.7rem;
+    background:#d7d7d7;
+    border-radius:0.3rem;
+    margin:0 auto;
+    margin-top:0.3rem;
+    padding:0;
+}
+.header li{
+    width:50%;
+    height:100%;
+    line-height:0.7rem;
+    float:left;
+    font-size:0.45rem;
+    text-align:center;
+    color:#787878;
+}
+.header .wdzb{
+    border-right:0.02rem solid #787878;
+    box-sizing:border-box;
+}
+.header .active{
+    font-weight:bold;
+    color:#333;
+}
+/*值班表格*/
+.zhiban .title{
+    font-size:0.4rem;
+    color:#333;
+    text-align:center;
+    margin:0.2rem auto;
+    font-weight:bold;
+}
+.zhiban .nav{
+    width:95%;
+    height:auto;
+    background:#fff;
+    border-radius:0.15rem;
+    margin:0 auto;
+    margin-bottom:0.2rem;
+}
+.zhiban .nav ul{
+    width:100%;
+    height:0.6rem;
+    margin:0 auto;
+    margin-top:0.05rem;
+}
+.zhiban .nav .title{
+    border-bottom:0.02rem solid #787878;
+    color:cornflowerblue;
+    font-size:0.38rem;
+}
+.zhiban .nav ul li{
+    width:22%;
+    height:100%;
+    line-height:0.6rem;
+    float:left;
+    text-align:center;
+    font-size:0.3rem;
+    color:#242424;
+}
+.zhiban .nav .title li{
+    color:cornflowerblue;
+    font-size:0.35rem;
+}
+.zhiban .nav ul .number{
+    width:34%;
+}
+.zhiban .nav ul .number a{
+    color:#494949;
+}
+.zhiban .title .date input{
+    font-size:0.4rem;
+    color:#333;
+    text-align:center;
+    margin:0.2rem auto;
+    font-weight:bold;
+    background:none;
+    border:0.02rem solid #ccc;
+}
+
+/*我的值班*/
+.zhiban .xiacinav ul{
+    width:100%;
+}
+.zhiban .xiacinav ul li{
+    float:left;
+    width:30%;
+}
+.zhiban .xiacinav ul .number{
+    width:40%;
+}
+.zhiban .xiacinav ul a{
+    float:right;
+    color:#494949;
+    padding:0.1rem 0.3rem;
+    color:#fff;
+    background:cornflowerblue;
+    border-radius:0.05rem;
+    margin-right:1.1rem;
+}
+.xuanxianka ul{
+    width:95%;
+    margin:0.3rem auto;
+}
+.xuanxianka ul li{
+    height:0.6rem;
+    line-height:0.6rem;
+    color:#494949;
+    font-size:0.4rem;
+}

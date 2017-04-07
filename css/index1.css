@@ -1,0 +1,128 @@
+/*头部*/
+.header li{
+    width:33.3333%;
+    height:100%;
+    line-height:0.7rem;
+    float:left;
+    font-size:0.45rem;
+    text-align:center;
+    color:#787878;
+}
+/*我的发起*/
+.zhiban .nav{
+    margin-top:0.3rem;
+}
+.zhiban .nav ul li{
+    width:50%;
+    text-align:left;
+    padding-left:0.3rem;
+    box-sizing:border-box;
+}
+
+.zhiban .button{
+    background:none;
+}
+.zhiban .button ul{
+    height:0.8rem;
+    line-height:0.8rem;
+    margin-top:0.5rem;
+}
+.zhiban .button ul li{
+    width:3.5rem;
+    height:0.7rem;
+    line-height:0.7rem;
+    box-sizing:border-box;
+    border-radius:0.1rem;
+    background:cornflowerblue;
+    text-align:center;
+    color:#fff;
+    font-size:0.4rem;
+    padding:0;
+}
+/*发起换班*/
+.contain{
+    width:95%;
+    height:auto;
+    margin:0 auto;
+    margin-top:1rem;
+}
+.contain form ul{
+    width:100%;
+    height:auto;
+}
+.contain form ul li{
+    width:100%;
+    height:0.8rem;
+    line-height:0.8rem;
+    font-size:0.4rem;
+    margin:0 auto;
+    margin-bottom:0.2rem;
+    padding-left:0.2rem;
+    box-sizing:border-box;
+    border-left:0.06rem solid cornflowerblue;
+    background:#fff;
+    overflow:hidden;
+}
+.contain form ul li .date input{
+    width:5.5rem;
+    height:0.8rem;
+    line-height:0.8rem;
+    border:0;margin:0;
+    padding:0;
+    font-size:0.4rem;
+}
+.contain form ul li span{
+    float:left;
+}
+.contain form ul li span .styled-select select{
+    width:5.5rem;
+    height:0.8rem;
+    line-height:0.8rem;
+    border:0;margin:0;
+    padding:0;
+    font-size:0.4rem;
+    float:left;
+    background:none;
+}
+
+.contain form ul .button{
+    border:0;
+    padding:0;
+    margin-top:0.5rem;
+    background:none;
+}
+.contain form ul .button button{
+    background:cornflowerblue;
+    border:0;
+    width:3.5rem;
+    height:0.7rem;
+    line-height:0.6rem;
+    font-size:0.4rem;
+    color:#fff;
+    border-radius:0.1rem;
+    text-align:center;
+}
+
+.contain_fqtx,.contain_fqhb{
+    display:none;
+}
+/*我的意见*/
+.contain_wdfq .zhiban .wdyj ul li{
+    text-align:left;
+}
+.contain_wdfq .zhiban .wdyj ul li a{
+    background:none;
+    color:#242424;
+    padding:0;
+    text-align:left;
+    font-size:0.3rem;
+    margin-right:1.4rem;
+}
+.contain_wdfq .zhiban .button li button{
+    background:cornflowerblue;
+    color:#fff;
+    padding:0.05rem 0.5rem;
+    font-size:0.36rem;
+    border-radius:0.1rem;
+    border:0;
+}
